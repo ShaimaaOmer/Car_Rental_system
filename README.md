@@ -5,7 +5,8 @@
 - Shaimaa Omer
 
 ##  Discreption
-A platform connecting car owners with renters across Sudan, designed to help communities rebuild mobility after conflict.
+car rental platform where people can rent cars from each other by connecting car owners with renters across Sudan.this platform Designed To help
+those affected by war find affordable transportation.
 
 ##  Key Features
 - Browse available cars with filters
