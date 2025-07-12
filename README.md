@@ -10,8 +10,8 @@ those affected by war find affordable transportation.
 
 ##  Key Features
 - Browse available cars with filters
-- Secure online booking system
 - Owner dashboard for car management
+- connecting woners and renters with Message feature
 - Bilingual interface (Arabic/English)
 
 ##  Technologies Used
