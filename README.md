@@ -1,9 +1,9 @@
 # Car_Rental_system
 #  Sudan Wheels - Peer-to-Peer Car Rental Platform
 # develped by
--Shaimaa Omer
--Amina Anas
-
+- Amina Anas
+- Shaimaa Omer
+  
 A platform connecting car owners with renters across Sudan, designed to help communities rebuild mobility after conflict.
 
 ##  Key Features
@@ -23,4 +23,3 @@ A platform connecting car owners with renters across Sudan, designed to help com
 1. Clone the repository:
 ```bash
 git clone https://github.com/ShaimaaOmer/Car_Rental_system.git
-or git clone https://github.com/AminaAnas/Car_Rental_system.git
