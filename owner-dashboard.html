@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Dashboard | Sudan Wheels</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Sudan Wheels" width="120">
+            </a>
+            <div class="nav-links">
+                <a href="listings.html">Browse Cars</a>
+                <a href="#">How It Works</a>
+                <a href="owner-dashboard.html">List Your Car</a>
+                <div class="auth-buttons">
+                    <a href="#" class="btn-login">Login</a>
+                    <a href="#" class="btn-signup">Sign Up</a>
+                </div>
+                <button class="lang-toggle">AR</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+        <div class="container">
+            <h1 class="dashboard-title">My Listed Cars</h1>
+
+            <div class="dashboard-summary">
+                <div class="summary-box">
+                    <h3>Total Cars</h3>
+                    <p>3</p>
+                </div>
+                <div class="summary-box">
+                    <h3>Total Bookings</h3>
+                    <p>12</p>
+                </div>
+                <div class="summary-box">
+                    <h3>Earnings</h3>
+                    <p>$420</p>
+                </div>
+            </div>
+
+            <div class="dashboard-actions">
+                <a href="#" class="btn btn-primary"><i class="fas fa-plus-circle"></i> Add New Car</a>
+            </div>
+
+            <div class="car-grid">
+                <!-- Card 1 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="images/corolla6.jpg" alt="Car">
+                        <div class="car-badge">Listed</div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Toyota Corolla 2020</h3>
+                        <div class="car-meta">
+                            <span><i class="fas fa-calendar"></i> 7 bookings</span>
+                            <span><i class="fas fa-dollar-sign"></i> $245</span>
+                        </div>
+                        <div class="car-footer">
+                            <a href="#" class="btn-view">Edit</a>
+                            <a href="#" class="btn-delete">Delete</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Sudan Wheels</h4>
+                    <p>Peer-to-peer car rental platform connecting owners with renters across Sudan.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="listings.html">Browse Cars</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Insurance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 Sudan Wheels. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

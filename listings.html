@@ -1,0 +1,171 @@
+<!-- listings.html - Improved Version -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Cars | Sudan Wheels</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/listing.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="Sudan Wheels" width="120">
+      </a>
+      <div class="nav-links">
+        <a href="listings.html">Browse Cars</a>
+        <a href="#">How It Works</a>
+        <a href="owner-dashboard.html">List Your Car</a>
+        <div class="auth-buttons">
+          <a href="#" class="btn-login">Login</a>
+          <a href="#" class="btn-signup">Sign Up</a>
+        </div>
+        <button class="lang-toggle">AR</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Listings Header -->
+  <section class="listings-header">
+    <div class="container">
+      <h1>Available Cars in Khartoum</h1>
+      <div class="listings-filter">
+        <div class="filter-group">
+          <label>Sort By:</label>
+          <select>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Rating</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Vehicle Type:</label>
+          <select>
+            <option>All Types</option>
+            <option>Sedan</option>
+            <option>SUV</option>
+            <option>Pickup</option>
+          </select>
+        </div>
+        <div class="map-toggle">
+          <button class="active"><i class="fas fa-list"></i> List</button>
+          <button><i class="fas fa-map"></i> Map</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings Grid -->
+  <section class="listings-grid">
+    <div class="container">
+      <aside class="sidebar">
+        <div class="filter-card">
+          <h3>Filter Results</h3>
+          <div class="filter-section">
+            <h4>Price Range</h4>
+            <input type="range" min="10" max="200" value="100">
+            <div class="price-range">
+              <span>$10</span>
+              <span>$200</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="listings-main">
+        <!-- Listing Card -->
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="assets/car1.jpg" alt="Toyota Corolla">
+            <div class="car-badges">
+              <span class="badge-rating">★ 4.8</span>
+              <span class="badge-discount">10% off</span>
+            </div>
+          </div>
+
+          <div class="listing-details">
+            <div class="listing-header">
+              <h3>Toyota Corolla 2020</h3>
+              <div class="owner-info">
+                <img src="assets/user1.jpg" class="owner-avatar">
+                <span>Mohammed</span>
+              </div>
+            </div>
+
+            <div class="car-specs">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-cog"></i> Automatic</span>
+              <span><i class="fas fa-tachometer-alt"></i> 45,000 km</span>
+            </div>
+
+            <div class="car-features">
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-music"></i> Audio</span>
+              <span><i class="fas fa-shield-alt"></i> Airbags</span>
+            </div>
+
+            <div class="listing-footer">
+              <div class="price-info">
+                <div class="daily-price">$35 <span>/day</span></div>
+                <div class="total-price">$245 total</div>
+              </div>
+              <a href="car-detail.html" class="btn-book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Listing Card -->
+      </main>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Sudan Wheels</h4>
+          <p>Peer-to-peer car rental platform connecting owners with renters across Sudan.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="listings.html">Browse Cars</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Safety</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Insurance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2023 Sudan Wheels. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

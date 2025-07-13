@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Details | Sudan Wheels</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/detail.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Sudan Wheels" width="120">
+      </a>
+      <div class="nav-links">
+        <a href="listings.html">Browse Cars</a>
+        <a href="#">How It Works</a>
+        <a href="owner-dashboard.html">List Your Car</a>
+        <div class="auth-buttons">
+          <a href="#" class="btn-login">Login</a>
+          <a href="#" class="btn-signup">Sign Up</a>
+        </div>
+        <button class="lang-toggle">AR</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Car Detail Section -->
+  <section class="car-detail">
+    <div class="container">
+      <div class="detail-gallery">
+        <div class="main-image">
+          <img src="images/corolla2.jpg" id="mainCarImage">
+        </div>
+        <div class="thumbnail-grid">
+          <img src="images/corolla2.jpg" class="thumbnail active">
+          <img src="images/corolla3.jpg" class="thumbnail">
+          <img src="images/corolla6.jpg" class="thumbnail">
+          <img src="images/corolla4.jpg" class="thumbnail">
+          <button class="view-more">+5 more</button>
+        </div>
+      </div>
+
+      <div class="detail-content">
+        <div class="detail-header">
+          <h1>Toyota Corolla 2020</h1>
+          <p class="car-location"><i class="fas fa-map-marker-alt"></i> Khartoum, Al Riyadh</p>
+          <p class="car-rating">★★★★☆ <span>4.8 (24 reviews)</span></p>
+        </div>
+
+        <div class="owner-card">
+          <div class="owner-header">
+            <img src="images/ahmed.jpg" class="owner-avatar">
+            <div class="owner-info">
+              <h4>Mohammed A.</h4>
+              <p class="owner-verification"><i class="fas fa-check-circle verified"></i> Verified Owner</p>
+            </div>
+          </div>
+          <div class="owner-stats">
+            <div class="stat">
+              <strong>98%</strong><span>Response Rate</span>
+            </div>
+            <div class="stat">
+              <strong>45</strong><span>Trips</span>
+            </div>
+          </div>
+          <button class="btn-message"><i class="fas fa-comment"></i> Message</button>
+        </div>
+
+        <div class="booking-widget">
+          <div class="price-display">
+            <span class="price">$35</span>
+            <span class="price-label">per day</span>
+          </div>
+          <form class="booking-form">
+            <div class="form-group">
+              <label>Pickup Location</label>
+              <input type="text" value="Khartoum Airport" readonly>
+            </div>
+            <div class="date-grid">
+              <div class="form-group">
+                <label>Pickup Date</label>
+                <input type="date" id="pickupDate">
+              </div>
+              <div class="form-group">
+                <label>Return Date</label>
+                <input type="date" id="returnDate">
+              </div>
+            </div>
+            <button type="submit" class="btn-book">Continue Booking</button>
+          </form>
+
+          <div class="price-summary">
+            <div class="summary-row">
+              <span>$35 x 7 days</span>
+              <span>$245</span>
+            </div>
+            <div class="summary-row">
+              <span>Service Fee</span>
+              <span>$24.50</span>
+            </div>
+            <div class="summary-row total">
+              <strong>Total</strong>
+              <strong>$269.50</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="car-features">
+    <div class="container">
+      <h2>Vehicle Details</h2>
+      <div class="features-grid">
+        <div class="feature"><i class="fas fa-car"></i> Sedan</div>
+        <div class="feature"><i class="fas fa-cogs"></i> Automatic</div>
+        <div class="feature"><i class="fas fa-snowflake"></i> A/C</div>
+        <div class="feature"><i class="fas fa-gas-pump"></i> Petrol</div>
+        <div class="feature"><i class="fas fa-shield-alt"></i> Airbags</div>
+        <div class="feature"><i class="fas fa-music"></i> Audio</div>
+      </div>
+
+      <table class="specs-table">
+        <tr><th>Make</th><td>Toyota</td></tr>
+        <tr><th>Model</th><td>Corolla</td></tr>
+        <tr><th>Year</th><td>2020</td></tr>
+        <tr><th>Color</th><td>Silver</td></tr>
+        <tr><th>Mileage</th><td>45,000 km</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section">
+    <div class="container">
+      <h2>Reviews <span>(24)</span></h2>
+      <div class="review-card">
+        <div class="review-header">
+          <img src="images/reviewer.jpg" class="review-avatar">
+          <div class="reviewer-info">
+            <h4>Ahmed S.</h4>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <div class="review-date">2 weeks ago</div>
+        </div>
+        <div class="review-content">
+          <p>Excellent car and very clean. Mohammed was punctual and helpful. Would definitely rent again!</p>
+        </div>
+      </div>
+      <!-- Add more reviews here -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Sudan Wheels</h4>
+          <p>Peer-to-peer car rental platform connecting owners with renters across Sudan.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="listings.html">Browse Cars</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Safety</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Insurance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2023 Sudan Wheels. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
